@@ -54,8 +54,8 @@ const App = () => {
 
   const handleChange = (event) => {
     let inputValue = event.target.value;
-    if (inputValue === "") inputValue = 1;
-    else inputValue = parseInt(inputValue);
+    if (inputValue === "") inputValue = 0;
+    inputValue = parseInt(inputValue);
     // console.log(inputValue, typeof inputValue);
     if (inputValue > maxCount) return;
     setCount(inputValue);
