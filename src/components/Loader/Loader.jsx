@@ -3,9 +3,9 @@ import "./index.css";
 
 const Loader = () => {
   return (
-    <div class="loader">
-      <div class="spinner"></div>
-      <p class="text">Saving counter value</p>
+    <div className="loader">
+      <div className="spinner"></div>
+      <p className="text">Saving counter value</p>
     </div>
   );
 };

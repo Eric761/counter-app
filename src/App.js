@@ -18,7 +18,7 @@ const App = () => {
       );
       try {
         let value = response.data;
-        console.log(value);
+        // console.log(value);
         if (value !== null) setCount(value);
         else setCount(1);
       } catch (error) {
